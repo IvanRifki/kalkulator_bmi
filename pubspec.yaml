@@ -32,6 +32,7 @@ dependencies:
     sdk: flutter
   google_fonts: ^6.2.1
   syncfusion_flutter_gauges: ^26.1.39
+  flutter_launcher_icons: ^0.14.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -48,6 +49,10 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
 
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/bmi.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
