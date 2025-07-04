@@ -53,6 +53,11 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/images/bmi.png"
+  web:
+    generate: true
+    image_path: "assets/images/bmi.png"
+  # background_color: "#0A0E21" # <-- Warna latar belakang app Anda
+  # theme_color: "#0A0E21"      # <
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
